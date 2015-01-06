@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Keep Your Child"
+        android:id="@+id/titleId"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffff1e57"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="UserName"
+        android:ems="10"
+        android:id="@+id/userNameID"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordID"
+        android:text="Password"
+        android:layout_weight="0.05" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RememberMe"
+        android:id="@+id/rememberMeID"
+        android:checked="true" />
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginBtnID"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signUpID"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="*forgot my password"
+        android:id="@+id/fgtMyPassID"
+        android:layout_weight="0.03" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/background_light"
+        android:layout_weight="0.69" />
+
+</LinearLayout>
